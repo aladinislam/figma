@@ -1,0 +1,236 @@
+*{
+ margin: 0;
+ padding:0;
+    background: #FFFFFF;
+
+     
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    
+}
+.contenar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.batton {background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%)}
+.batton {
+    border: none;
+    width: 150px;
+    height: 40px;
+   margin: 10px;
+   padding: 5px 20px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: rgb(5, 5, 5);            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 0px;
+   display: block;
+ }
+
+ .batton:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(52, 36, 141);
+   text-decoration: none;
+ }
+ ul{
+     padding-top: 10px;
+ }
+ li{
+     color: black;
+     font-size: 16px;
+     font: weight 900px;;
+    
+ }
+ 
+ .website{
+    margin-top: 100px;
+     text-align: center;
+     font-size: 60px;
+     font-weight: bold;
+     line-height: 60px;
+ }
+ .p1{
+     text-align: center;
+     line-height: 60px;
+     margin-top: 15px;
+     font-size: 18px;
+     font-weight: 300;
+ }
+ 
+.img4{
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  
+}
+.img3{
+    height:320px;
+    width: 1000px;
+}
+.Explore{
+    margin-left: 170px;
+    margin-top: 40px;
+    font-size: 45px;
+     font-weight: bold;
+}
+.bold{
+    color: rgb(46, 46, 250);
+
+}
+.img5{
+    width: 1200px;
+   margin: auto;
+   text-align: center;
+   margin-top: 40px;
+  
+}
+.img6{
+    height:320px;
+    width: 1000px;
+
+}
+.boxmain{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+
+   
+}
+.box1{
+    margin-top: 20px;
+    margin-left: 175px;
+    width: 480px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box2{
+    margin-top: 20px;
+     margin-right: 26px;
+    width: 480px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box1{
+    display: flex;
+}
+.icon1{
+   height: 50px;
+   width: 50px;
+   margin-top: 40px;
+   margin-left: 30px;
+
+}
+.HD{
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.box2{
+    display: flex;
+}
+.icon2{
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+ }
+ .HD2{
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+/*next*/
+.boxmain2{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+
+   
+}
+.box3{
+    margin-top: 20px;
+    margin-left: 175px;
+    width: 480px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box4{
+    margin-top: 20px;
+     margin-right: 26px;
+    width: 480px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box3{
+    display: flex;
+}
+.icon3{
+   height: 50px;
+   width: 50px;
+   margin-top: 40px;
+   margin-left: 30px;
+
+}
+.HD3{
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.box4{
+    display: flex;
+}
+.icon4{
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+ }
+ .HD4{
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.pmain{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.CourseAble{
+    color: rgb(46, 46, 248);
+    font-weight: 500px;
+}
+.ananto{
+    color: rgb(46, 46, 248);
+    font-weight: 500px;
+}
+
+
+
+
+
+
+
+
+
+
